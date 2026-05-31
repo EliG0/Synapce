@@ -1,0 +1,347 @@
+.root {
+    -fx-font-family: "Inter";
+    -fx-background-color: linear-gradient(to bottom,
+    #eef5ff,
+    #f9fbff);
+    -fx-text-fill: #2b3552;
+}
+
+.main {
+    -fx-background-image: url("../assets/images/bg.png");
+
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+
+    /*-fx-opacity: 0.28;*/
+}
+
+.welcomeTitle {
+    -fx-font-size: 30px;
+    /*-fx-font-family: "Cinzel Decorative";*/
+    -fx-text-fill: #5060b8;
+
+
+}
+/*#backgroundLayer {*/
+/*    -fx-background-image:*/
+/*            url("../assets/images/bg1.jpg");*/
+
+/*    -fx-background-size: cover;*/
+/*    -fx-background-position: center center;*/
+
+/*    -fx-opacity: 0.28;*/
+/*}*/
+
+/*#fogLayer {*/
+/*    -fx-background-color:*/
+/*            linear-gradient(to bottom,*/
+/*            rgba(255,255,255,0.55),*/
+/*            rgba(245,248,255,0.82));*/
+/*}*/
+
+.sidebar {
+
+    -fx-background-color: rgba(255, 255, 255, 0.9);
+
+    /*-fx-border-color: rgba(200, 210, 255, 0.55);*/
+
+    -fx-effect: dropshadow(
+            gaussian,
+            rgba(170, 180, 255, 0.18),
+            35,
+            0.2,
+            0,
+            10
+    );
+}
+
+.gamesScrollPane {
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-border-color: rgba(200, 210, 255, 0);
+}
+
+
+.logo {
+    -fx-font-size: 30px;
+    -fx-font-family: "Cinzel Decorative";
+    -fx-text-fill: linear-gradient(to right,
+    #caa7ff,
+    #91c6ff);
+}
+
+.subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #7d88a5;
+}
+
+
+
+.nav-button {
+
+    -fx-background-color: transparent;
+
+    -fx-background-radius: 16;
+
+    -fx-padding: 14 18;
+
+    -fx-font-size: 14px;
+
+    -fx-alignment: CENTER_LEFT;
+
+    -fx-text-fill: #60719a;
+}
+
+.nav-button:hover {
+
+    -fx-background-color: rgba(193, 210, 255, 0.28);
+
+    -fx-text-fill: #4d5dc7;
+}
+
+.nav-button.active {
+
+    -fx-background-color: linear-gradient(to right,
+    rgba(206, 190, 255, 0.55),
+    rgba(177, 216, 255, 0.45));
+
+    -fx-text-fill: #5361d7;
+}
+
+
+
+.glass-card,
+.hero-card {
+
+    -fx-background-color: rgba(255, 255, 255, 0.68);
+
+    -fx-background-radius: 28;
+
+    -fx-border-color: rgba(190, 205, 255, 0.45);
+
+    -fx-border-radius: 28;
+
+    -fx-effect: dropshadow(
+            gaussian,
+            rgba(170, 180, 255, 0.18),
+            35,
+            0.18,
+            0,
+            12
+    );
+}
+
+
+
+.hero-card {
+
+    /*-fx-background-image:*/
+    /*        url("");*/
+
+    -fx-background-size: cover;
+
+    -fx-background-position: center center;
+}
+
+.hero-small {
+    -fx-font-size: 15px;
+    -fx-text-fill: #5f6f99;
+}
+
+.hero-title {
+
+    -fx-font-size: 42px;
+
+    -fx-font-family: "Cinzel Decorative";
+
+    -fx-text-fill: linear-gradient(to right,
+    #d8b7ff,
+    #9fc9ff);
+}
+
+
+.page-title {
+    -fx-font-size: 34px;
+    -fx-font-family: "Cinzel Decorative";
+    -fx-text-fill: #5060b8;
+}
+
+.page-subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #8190b2;
+}
+
+.card-title {
+    -fx-font-size: 20px;
+    -fx-font-family: "Cinzel Decorative";
+    -fx-text-fill: #5b6ad1;
+}
+
+
+
+.primary-button {
+
+    -fx-background-color: linear-gradient(to right,
+    #d5b4ff,
+    #a5cbff);
+
+    -fx-background-radius: 18;
+
+    -fx-padding: 12 26;
+
+    -fx-text-fill: white;
+
+    -fx-font-weight: bold;
+}
+
+.primary-button:hover {
+
+    -fx-effect: dropshadow(
+            gaussian,
+            rgba(180, 160, 255, 0.45),
+            20,
+            0.2,
+            0,
+            4
+    );
+}
+
+.secondary-button {
+
+    -fx-background-color: rgba(255, 255, 255, 0.75);
+
+    -fx-background-radius: 18;
+
+    -fx-border-color: rgba(180, 190, 255, 0.35);
+
+    -fx-border-radius: 18;
+
+    -fx-padding: 12 22;
+
+    -fx-text-fill: #6170d5;
+}
+
+
+
+.search-field {
+
+    -fx-background-color: rgba(255, 255, 255, 0.72);
+
+    -fx-background-radius: 18;
+
+    -fx-border-color: rgba(190, 205, 255, 0.45);
+
+    -fx-border-radius: 18;
+
+    -fx-padding: 12 18;
+}
+
+
+
+.stat-card {
+
+    -fx-background-color: rgba(255, 255, 255, 0.55);
+
+    -fx-background-radius: 18;
+
+    -fx-padding: 16;
+}
+
+.stat-number {
+
+    -fx-font-size: 28px;
+
+    -fx-font-weight: bold;
+
+    -fx-text-fill: #5565d2;
+}
+
+.stat-label {
+
+    -fx-font-size: 12px;
+
+    -fx-text-fill: #7d89aa;
+}
+
+
+.mods-table {
+
+    -fx-background-color: transparent;
+
+    -fx-control-inner-background: rgba(255, 255, 255, 0.42);
+
+    -fx-background-radius: 18;
+}
+
+
+.profile-card {
+
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+
+    -fx-background-radius: 20;
+
+    -fx-padding: 16;
+}
+
+.avatar {
+
+    -fx-background-color: linear-gradient(to bottom right,
+    #d7b7ff,
+    #a7ccff);
+
+    -fx-background-radius: 999;
+}
+
+.profile-name {
+
+    -fx-font-size: 14px;
+
+    -fx-font-weight: bold;
+
+    -fx-text-fill: #5360c7;
+}
+
+.profile-level {
+
+    -fx-font-size: 12px;
+
+    -fx-text-fill: #8A96B6FF;
+}
+
+.promo-banner {
+    /*-fx-background-image: url("../assets/images/bg.png");*/
+
+    -fx-background-color: FFC0CBFF;
+    -fx-background-origin: border-box;
+    -fx-background-position: right bottom;
+
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-size: cover;
+}
+
+
+.mainHeader {
+    -fx-background-color: linear-gradient(to right,
+            rgba(255, 255, 255, 0.9),
+            rgba(255, 255, 255, 0));
+
+}
+.transparent {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+
+}
+
+.transparent .viewport {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+
+}
+
+.windowButton {
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-text-fill: rgb(0, 0, 0);
+    -fx-font-size: 17;
+}
+

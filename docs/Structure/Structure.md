@@ -17,7 +17,7 @@
 
 * /core - [Operation Result](../../src/main/java/ru/lgtu/xarxes/common/core/OperationResult.java)
   и [LogService](../../src/main/java/ru/lgtu/xarxes/common/core/LogService.java)
-* /model - модели данных (User, Role, Theme), см. [XarxesModel](../Models/XarxesModels.md)
+* /model - модели данных (User, Role, Theme), см. [XarxesModel](../Models/Models.md)
 * /repository - репозитории для работы с данными (UserRepository, FileRepository),
   см. [Repositories](../Repositories/Repositories.md)
 * /service - сервисы для работы с данными, см. [Services](../Services/Services.md#xarxes)
@@ -70,7 +70,7 @@ xarxes/
 Каталог модов и интеграция с играми, включает: модели, репозитории, сервисы и свой UI.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-### Model: см. [HermaeusModels.md](../Models/HermaeusModels.md)
+### Model: см. [HermaeusModels.md](../Models/Models.md)
 
 ### Repository:
 
@@ -122,9 +122,9 @@ hermaeus/
 
 ### Model:
 
-[Conflict](../Models/OghmaModels.md#conflict)
+[Conflict](../Models/Models.md#conflict)
 
-[InstalledMod](../Models/OghmaModels.md#installedmod)
+[InstalledMod](../Models/Models.md#installedmod)
 
 ### Repository:
 

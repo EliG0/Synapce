@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "username": "Гость",
+    "role": "GUEST",
+    "passwordHash": "",
+    "registrationDate": "2026-05-22T12:42:13.615126600",
+    "installedMods": [],
+    "likedModIds": [],
+    "currentTheme": "CLASSIC"
+  },
+  {
+    "id": 1,
+    "username": "admin",
+    "role": "ADMIN",
+    "passwordHash": "$2a$10$XWkm2I4cfho3T2QsWnJV5u6rlbfQOe7RQ8ySxAzsc6PsOnxPsXfUu",
+    "registrationDate": "2026-05-22T12:42:13.699897600",
+    "installedMods": [],
+    "likedModIds": [],
+    "currentTheme": "CLASSIC"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "The Elder Scrolls V: Skyrim",
+    "modFolderName": "Skyrim"
+  },
+  {
+    "id": 2,
+    "name": "The Witcher 3: Wild Hunt",
+    "modFolderName": "TheWitcher3"
+  },
+  {
+    "id": 3,
+    "name": "Minecraft",
+    "modFolderName": "Minecraft"
+  }
+]
